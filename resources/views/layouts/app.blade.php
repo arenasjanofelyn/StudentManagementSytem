@@ -74,7 +74,12 @@
                 </div>
             </div>
         </nav>
-
+            <div class="sidenav">
+            <img src="resources/img/ccslogo.jpg">
+                <a href="/home">Course</a>
+                <a href="/instructors">Instructor</a>
+                <a href="/students">Students</a>
+</div>
         <main class="py-4">
             @yield('content')
         </main>

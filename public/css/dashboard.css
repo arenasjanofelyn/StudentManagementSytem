@@ -1,0 +1,37 @@
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #171F32;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: Bahnschrift Condensed;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a1a1a1;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #FF611D;
+  }
+  
+  .main {
+    margin-left: 160px;
+    font-size: 28px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
